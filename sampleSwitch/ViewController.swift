@@ -15,11 +15,9 @@ class ViewController: UIViewController {
     // 画面が起動した時1回実行されるメソッド
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
+            
     // スイッチの状態が変わった時発動
-    @IBAction func changeSwitch(_ sender: UISwitch) {
+    func changeSwitch(_ sender: UISwitch) {
         
         print(sender.isOn)
         
